@@ -1,5 +1,5 @@
 from flask import Flask, g, request, jsonify
-from db import get_db
+from db_connect import get_db
 from functools import wraps
 
 app = Flask(__name__)
